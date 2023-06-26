@@ -1,0 +1,46 @@
+.projects_section{
+  max-width: 1440px;
+  margin: 0 auto 250px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projects_desc{
+  width: 360px;
+}
+
+.projects_desc h1{
+  text-align: center;
+  color: rgb(48, 48, 145);
+}
+
+.projects_desc p{
+  text-align: justify;
+  text-justify:auto;
+  color: #383838;
+  margin: 40px 0;
+}
+
+.projects_section img{
+  width: 400px;
+}
+
+.project_links{
+  width: 200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #000;
+}
+
+.project_links p{
+  margin: 5px 0;
+}
+
+.project_links a{
+  text-decoration: none;
+}
+

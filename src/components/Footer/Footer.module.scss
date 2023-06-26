@@ -1,0 +1,29 @@
+.footer{
+  width: 100%;
+  height: 260px;
+  bottom: 0;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.footer_area{
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gmail{
+  display: flex;
+  align-items: center;
+}
+
+.gmail p{
+  margin: 30px;
+}
+
+.footer h1{
+  text-transform: uppercase;
+}
