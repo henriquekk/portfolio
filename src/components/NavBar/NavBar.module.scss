@@ -1,0 +1,14 @@
+li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 10px;
+}
