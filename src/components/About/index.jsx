@@ -4,6 +4,7 @@ import styles from './About.module.scss';
 export default function About() {
   return (
     <section className={styles.about_section} id='about'>
+
       <img src='https://github.com/maykbrito.png'/>
       <div className={styles.about_text}>
         <h1>Sobre mim</h1>
