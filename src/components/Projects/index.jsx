@@ -8,19 +8,21 @@ export default function Projects({ titulo, descricao, imagem, github, liveLink }
   return (
     <>
       <section className={styles.projects_section} id='projects'>
-        <img src={imagem} alt={titulo}/>
+        <Link to={liveLink} target='_blank'>
+          <img src={imagem} alt={titulo}/>
+        </Link>
         <div className={styles.projects_desc}>
           <h1>{titulo}</h1>
           <p>{descricao}</p>
           <div className={styles.project_links}>
-            <a href={github} target='_blank'>
+            <Link to={github} target='_blank'>
               <BsGithub color='#000' size={30}/>
               <p>Github</p>
-            </a>
-            <a href={liveLink} target='_blank'>
+            </Link>
+            <Link to={liveLink} target='_blank'>
               <FiExternalLink color='#000' size={30}/>
               <p>Live</p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

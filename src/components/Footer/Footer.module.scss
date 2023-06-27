@@ -27,3 +27,14 @@
 .footer h1{
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1023px) {
+
+  .footer_area{
+    text-align: center;
+  }
+
+  .gmail{
+    flex-direction: column;
+  }
+}

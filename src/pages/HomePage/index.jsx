@@ -7,6 +7,8 @@ import About from '../../components/About'
 import Projects from '../../components/Projects'
 import Footer from '../../components/Footer'
 import ProjectsMirror from '../../components/ProjectsMirror'
+import imgProgress from '../../assets/images/desenvolvimento.png'
+import imgOlaMundo from '../../assets/images/ola_mundo.png'
 
 export default function HomePage() {
   return (
@@ -20,27 +22,23 @@ export default function HomePage() {
       </Container>
       <Container>
         <Projects 
-          titulo={'Ola mundo!'} 
-          descricao={'askdjhansdkjas ndakjsndaksjdnaksjdn aksdjnaskdjn askdjnasdkjnasdkjnasdkjan sdkjansdkjansdkajnsd kajnsdkajsndkasdjn'}
-          imagem={'http://github.com/moontieur.png'}
+          titulo={'Olá, mundo!'} 
+          descricao={'Esse foi um dos primeiros projetos que eu fiz com os aprendizados das aulas da plataforma Alura. Esse projeto foi desenvolvido com React.'}
+          imagem={imgOlaMundo}
           github={'https://github.com/henriquekk/alura-react-ola-mundo'}
           liveLink={'https://alura-ola-mundo-gamma.vercel.app/'}
         >
         </Projects>
         <ProjectsMirror 
-          titulo={'Ola mundo!'} 
-          descricao={'askdjhansdkjas ndakjsndaksjdnaksjdn aksdjnaskdjn askdjnasdkjnasdkjnasdkjan sdkjansdkjansdkajnsd kajnsdkajsndkasdjn'}
-          imagem={'https://github.com/gabrielaspenha.png'}
-          github={'https://github.com/henriquekk/alura-react-ola-mundo'}
-          liveLink={'https://alura-ola-mundo-gamma.vercel.app/'}
+          titulo={'Em desenvolvimento...'} 
+          descricao={''}
+          imagem={imgProgress}
         >
         </ProjectsMirror>
         <Projects 
-          titulo={'Ola mundo!'} 
-          descricao={'askdjhansdkjas ndakjsndaksjdnaksjdn aksdjnaskdjn askdjnasdkjnasdkjnasdkjan sdkjansdkjansdkajnsd kajnsdkajsndkasdjn'}
-          imagem={'https://github.com/ViniciusRangel23.png'}
-          github={'https://github.com/henriquekk/alura-react-ola-mundo'}
-          liveLink={'https://alura-ola-mundo-gamma.vercel.app/'}
+          titulo={'Em desenvolvimento...'} 
+          descricao={''}
+          imagem={imgProgress}
         >
         </Projects>
       </Container>
