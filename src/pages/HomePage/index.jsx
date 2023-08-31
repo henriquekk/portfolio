@@ -9,6 +9,7 @@ import Footer from '../../components/Footer'
 import ProjectsMirror from '../../components/ProjectsMirror'
 import imgProgress from '../../assets/images/desenvolvimento.png'
 import imgOlaMundo from '../../assets/images/ola_mundo.png'
+import imgDocearte from '../../assets/images/docearte.png'
 
 export default function HomePage() {
   return (
@@ -30,9 +31,9 @@ export default function HomePage() {
         >
         </Projects>
         <ProjectsMirror 
-          titulo={'Em desenvolvimento...'} 
+          titulo={'Doce Arte Studio'} 
           descricao={''}
-          imagem={imgProgress}
+          imagem={imgDocearte}
         >
         </ProjectsMirror>
         <Projects 
