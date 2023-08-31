@@ -32,8 +32,10 @@ export default function HomePage() {
         </Projects>
         <ProjectsMirror 
           titulo={'Doce Arte Studio'} 
-          descricao={''}
+          descricao={'Site ainda em desenvolvimento.'}
           imagem={imgDocearte}
+          github={'https://github.com/henriquekk'}
+          liveLink={'https://doceartestudio.vercel.app/'}
         >
         </ProjectsMirror>
         <Projects 
