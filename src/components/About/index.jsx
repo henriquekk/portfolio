@@ -9,9 +9,8 @@ export default function About() {
       <img src={image}/>
       <div className={styles.about_text}>
         <h1>Sobre mim</h1>
-        <p>Meu nome é Henrique Guerrato, nasci dia 10 de agosto de 2000 em São Paulo - SP e atualmente estou morando em Bertioga - SP.</p> 
-        <p>Sou desenvolvendor front-end júnior, estou em busca de um primeiro emprego na area. Falo inglês em nivel intermediário/avançado. Tenho habilidades e conhecimento solido em HTML, CSS, JavaScript, React e Git e conhecimento intermediário em WordPress, Sass e PHP.</p> 
-        <p>Tenho muita vontade de trabalhar, gosto de aprender constantemente principalmente sobre essa area e tenho conforto em trabalhar em equipe.</p>
+        <p>Programador de front-end Junior com conhecimento em HTML, CSS, JavaScript, ReactJS, SASS, Git e Wordpress. Trabalho com extrema atenção aos detalhes, tendo uma boa capacidade de reconhecer, comunicar e corrigir bugs no código front-end.</p> 
+        <p>Além do conhecimento técnico, busco sempre aperfeiçoamento profissional através de cursos e treinamentos online, visando sempre ter conhecimento nas tecnologias mais modernas de desenvolvimento web.</p>
       </div>
     </section>
   )

@@ -23,19 +23,19 @@ export default function HomePage() {
       </Container>
       <Container>
         <Projects 
-          titulo={'Olá, mundo!'} 
-          descricao={'Esse foi um dos primeiros projetos que eu fiz com os aprendizados das aulas da plataforma Alura. Esse projeto foi desenvolvido com React.'}
-          imagem={imgOlaMundo}
-          github={'https://github.com/henriquekk/alura-react-ola-mundo'}
-          liveLink={'https://alura-ola-mundo-gamma.vercel.app/'}
+          titulo={'Doce Arte Studio'} 
+          descricao={'Catálogo virtual para a empresa Doce Arte Studio, desenvolvido com ReactJS. Esse foi o primeiro grande projeto desenvolvido por mim para um cliente real.'}
+          imagem={imgDocearte}
+          github={'https://github.com/henriquekk'}
+          liveLink={'https://docearte.net/'}
         >
         </Projects>
         <ProjectsMirror 
-          titulo={'Doce Arte Studio'} 
-          descricao={'Site ainda em desenvolvimento.'}
-          imagem={imgDocearte}
-          github={'https://github.com/henriquekk'}
-          liveLink={'https://doceartestudio.vercel.app/'}
+          titulo={'Olá, mundo!'} 
+          descricao={'Esse foi um dos primeiros projetos que eu fiz com os aprendizados das aulas da plataforma Alura. Esse projeto foi desenvolvido com ReactJS.'}
+          imagem={imgOlaMundo}
+          github={'https://github.com/henriquekk/alura-react-ola-mundo'}
+          liveLink={'https://alura-ola-mundo-gamma.vercel.app/'}
         >
         </ProjectsMirror>
         <Projects 
