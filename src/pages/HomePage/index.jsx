@@ -32,7 +32,7 @@ export default function HomePage() {
         >
         </Projects>
         <ProjectsMirror 
-          titulo={'Olá, mundo!'} 
+          titulo={'Portfólio Modelo Mirim'} 
           descricao={'Portfólio feito para uma modelo mirim fictícia com o propósito de divulgação de seu trabalho e facilitar o contato profissional.'}
           texto1={'O site foi desenvolvido com ReactJS.'}
           imagem={imgPortfolioModelo}
