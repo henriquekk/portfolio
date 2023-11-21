@@ -4,13 +4,14 @@ import { FiExternalLink } from 'react-icons/fi';
 import { BsGithub } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
 
-export default function ProjectsMirror({ titulo, descricao, imagem, github, liveLink }) {
+export default function ProjectsMirror({ titulo, descricao, imagem, github, liveLink, texto1 }) {
   return (
     <>
       <section className={styles.projects_section}>
         <div className={styles.projects_desc}>
           <h1>{titulo}</h1>
           <p>{descricao}</p>
+          <p>{texto1}</p>
           <div className={styles.project_links}>
             <Link to={github} target='_blank'>
               <BsGithub color='#000' size={30}/>

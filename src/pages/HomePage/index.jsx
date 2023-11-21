@@ -8,7 +8,7 @@ import Projects from '../../components/Projects'
 import Footer from '../../components/Footer'
 import ProjectsMirror from '../../components/ProjectsMirror'
 import imgProgress from '../../assets/images/desenvolvimento.png'
-import imgOlaMundo from '../../assets/images/ola_mundo.png'
+import imgPortfolioModelo from '../../assets/images/portfolio_modelo.png'
 import imgDocearte from '../../assets/images/docearte.png'
 
 export default function HomePage() {
@@ -24,7 +24,8 @@ export default function HomePage() {
       <Container>
         <Projects 
           titulo={'Doce Arte Studio'} 
-          descricao={'Catálogo virtual para a empresa Doce Arte Studio, desenvolvido com ReactJS. Esse foi o primeiro grande projeto desenvolvido por mim para um cliente real.'}
+          descricao={'Catálogo virtual desenvolvido para a empresa Doce Arte Studio com o intuito de facilitar a divulgação de seus produtos e aumentar a sua presença online.'}
+          texto1={'O site foi desenvolvido com ReactJS e com o DatoCMS para tornar mais fácil a administração do conteúdo.'}
           imagem={imgDocearte}
           github={'https://github.com/henriquekk'}
           liveLink={'https://docearte.net/'}
@@ -32,10 +33,11 @@ export default function HomePage() {
         </Projects>
         <ProjectsMirror 
           titulo={'Olá, mundo!'} 
-          descricao={'Esse foi um dos primeiros projetos que eu fiz com os aprendizados das aulas da plataforma Alura. Esse projeto foi desenvolvido com ReactJS.'}
-          imagem={imgOlaMundo}
-          github={'https://github.com/henriquekk/alura-react-ola-mundo'}
-          liveLink={'https://alura-ola-mundo-gamma.vercel.app/'}
+          descricao={'Portfólio feito para uma modelo mirim fictícia com o propósito de divulgação de seu trabalho e facilitar o contato profissional.'}
+          texto1={'O site foi desenvolvido com ReactJS.'}
+          imagem={imgPortfolioModelo}
+          github={'https://github.com/henriquekk/portfolio-modelo'}
+          liveLink={'https://portfolio-modelo-rho.vercel.app/'}
         >
         </ProjectsMirror>
         <Projects 
