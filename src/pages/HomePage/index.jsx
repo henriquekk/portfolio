@@ -10,6 +10,7 @@ import ProjectsMirror from '../../components/ProjectsMirror'
 import imgProgress from '../../assets/images/desenvolvimento.png'
 import imgPortfolioModelo from '../../assets/images/portfolio_modelo.png'
 import imgDocearte from '../../assets/images/docearte.png'
+import Form from '../../components/Form'
 
 export default function HomePage() {
   return (
@@ -47,6 +48,9 @@ export default function HomePage() {
         >
         </Projects>
       </Container>
+
+      <Form/>
+
       <Footer/>
     </>
   )
