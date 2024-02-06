@@ -19,3 +19,18 @@ nav {
   padding: 0 10px;
 }
 
+.logo_nome{
+  margin: 0;
+}
+
+@media screen and (max-width: 350px){
+
+  nav ul{
+    display: none;
+  }
+
+  header {
+    display: flex;
+  }
+
+}

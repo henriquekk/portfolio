@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 export default function NavBar() {
   return (
     <nav>
-      <h3>Henrique Guerrato</h3>
+      <h3 className={styles.logo_nome}>Henrique Guerrato</h3>
       <ul>
         <li>
           <Link to='hero' spy={true} smooth={true} offset={-300} duration={500}>Home</Link> 
