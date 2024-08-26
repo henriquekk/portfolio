@@ -9,7 +9,7 @@ export default function Projects({ titulo, descricao, imagem, github, liveLink, 
     <>
       <section className={styles.projects_section} id='projects'>
         <Link to={liveLink} target='_blank'>
-          <img src={imagem} alt={titulo}/>
+          <img className={styles.banner_img} src={imagem} alt={titulo}/>
         </Link>
         <div className={styles.projects_desc}>
           <h1>{titulo}</h1>

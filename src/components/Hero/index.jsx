@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Hero.module.scss';
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoSass } from 'react-icons/bi'
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoSass, BiLogoPhp } from 'react-icons/bi'
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 
 export default function Hero() {
@@ -21,6 +21,7 @@ export default function Hero() {
             <BiLogoJavascript size={50}/>
             <BiLogoReact size={50}/>
             <BiLogoSass size={50}/>
+            <BiLogoPhp size={50}/>
           </div>
         </div>
         <img src="https://github.com/henriquekk.png" alt='Foto de Henrique Guerrato'/>

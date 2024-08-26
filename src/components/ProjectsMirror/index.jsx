@@ -24,7 +24,7 @@ export default function ProjectsMirror({ titulo, descricao, imagem, github, live
           </div>
         </div>
         <Link to={liveLink} target='_blank'>
-          <img src={imagem} alt={titulo}/>
+          <img className={styles.banner_img} src={imagem} alt={titulo}/>
         </Link>
       </section>
     </>
